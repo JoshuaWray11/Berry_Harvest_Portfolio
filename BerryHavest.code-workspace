@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Sites/FSS/FirstSunServices"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "BerryHarvest"
+	}
+}

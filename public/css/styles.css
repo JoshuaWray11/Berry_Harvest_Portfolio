@@ -4,6 +4,7 @@ html, body {
     margin: 0;
     padding: 0px;
     overflow-x: hidden;
+    
 }
 
 #headLogo {
@@ -40,10 +41,24 @@ html, body {
     opacity: 100%;
 }
 
+#third_carousel_caption {
+    font-family: 'kefa';
+    position: relative;
+    left: 200px;
+    font-size: 25px;
+    color: #7EE11B;
+    bottom: 20px;
+}
+
+img {
+    /* width: 100%; */
+    max-width: 100%;
+}
+
 #second_carousel_caption {
     position: relative;
     left: 1rem;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 1px 1px 2px #000000;
 }
 
 #goodness_txt {
@@ -60,8 +75,8 @@ html, body {
     opacity: 100%;
     width: 300px;
     position: relative;
-    left: 33.5%;
-    bottom: 12%;
+    margin-left: 33.5%;
+    bottom: 19%;
 }
 
 
@@ -75,26 +90,30 @@ html, body {
     width: 400px;
     height: auto;
     position: relative;
-    left: 120px;
-    top: 5px;
-    bottom: 90px;
+    margin-left: 8%;
+    top: 2%;
+    /* bottom: 90px; */
 }
 
 .collectionDrinks {
     width: 400px;
     height: auto;
     position: relative;
-    left: 35%;
-    top: 60px;
+    margin-left: 25%;
+    top: 20%;
     bottom: 40%;
 }
 
 .splashText {
     position: relative;
-    left: 36%;
-    bottom: 80%;
+    /* left: 36%;
+    bottom: 80%;  */
     color: #BF1919;
-    font-family: 'kefa'
+    font-family: 'kefa';
+    margin-left: 36%;
+    /* padding-top: 10%;  */
+    bottom: 80%
+   
 }
 
 .divbutton {
@@ -112,7 +131,7 @@ html, body {
 
 .bannerText {
     position: relative;
-    left: 35%;
+    margin-left: 35%;
     bottom: 80%;
     color: white;
     
@@ -123,16 +142,16 @@ html, body {
     font-family: 'Shrikhand', cursive;
 }
 
-#contact {
+/* #contact {
     position: relative;
     left: 15%;
     padding-top: 1.6%;
     font-size: 13px;
-}
+} */
 
 #socials {
     position: relative;
-    padding-left: 66%;
+    margin-left: 800px;
     padding-top: 0.8%;
     color: #FFBD0B;
 }
@@ -144,8 +163,12 @@ html, body {
 
 #leafIcon {
     position: relative;
-    left: 18.5%;
+    margin-left: 38%;
     bottom: 20.5%;
+    color: #4BD040;
+}
+
+.navIcon {
     color: #4BD040;
 }
 
@@ -158,7 +181,43 @@ html, body {
 #bannerButton:hover {
     background-color: white;
     color: #BF1919;
+    bottom: 13%;
     
+}
+
+#bannerButton_02 {
+    color: white;
+    border-color: white;
+    margin-top: 50px;
+}
+
+#bannerButton_02:hover {
+    background-color: white;
+    color: #BF1919;
+    bottom: 13%;
+    
+}
+
+#bannerButton_03 {
+    color: #4BD040;
+    border-color: white;
+    margin-top: 90px;
+    margin-left: 400px;
+}
+
+#bannerButton_03:hover {
+    background-color: white;
+    color:#4BD040;
+    bottom: 13%;
+    
+}
+
+
+.menuContainer {
+    width: 100%;
+    height: 230px;
+    background-color: pink;
+    display: inline;
 }
 
 .card-wrapper{
@@ -203,93 +262,128 @@ html, body {
 }
 
 .about_1_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #FFBD0B;
     width: 100%;
     height: 230px;
-    margin-bottom: 60px;   
+    margin-bottom: 60px;
+    position: relative;   
 }
 
 .about_2_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #F7F4ED;
     width: 100%;
     height: 230px;
-    margin-bottom: 60px;   
+    margin-bottom: 60px;
+    position: relative;   
 }
 
 .about_3_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #D3EF63;
     width: 100%;
     height: 230px;
-    margin-bottom: 60px;   
+    margin-bottom: 60px;
+    position: relative;   
 }
 
 #pouringDrinks {
-    height: 20rem;
-    width: auto;
-    position: relative;
-    left: 60%;
-    bottom: 30%
-}
-
-#header_1_about {
-    font-family: 'kefa';
-    position: relative;
-    left: 24%;
-    bottom: 120%;
-    color: #BF1919;
-}
-
-#about_1_text {
-    font-family: 'kefa';
-    position: relative; 
-    left: 20%;
-    bottom: 110%; 
+   position: absolute;
+   right: 0;
+   bottom: -35px;
+   width: 320px;
 }
 
 #pouringMilk {
-    height: 14rem;
+    position: absolute;
+    right: 0;
+    top: -4px;
+    width: 320px;
+    /* height: 14rem;
     width: auto;
     position: relative;
     left: 73.5%;
-    top: 1%;
-}
+    top: 1%; */
+} 
+
+
+#header_1_about {
+    margin-bottom: 20px; 
+    position: relative;
+    left: -75px;
+    font-family: 'kefa';
+    color: #BF1919; 
+    
+} 
+
+ #about_1_text {
+    font-family: 'kefa';
+    position: relative;
+    left: -130px; 
+    /* left: 20%; */
+    /* bottom: 100%; */
+} 
+
 
 #header_2_about {
     font-family: 'kefa';
+    margin-bottom: 20px; 
     position: relative;
-    left: 25%;
-    bottom: 70%;
+    left: -75px;
+    /* position: relative; */
+    /* left: 25%; */
+    /* bottom: 70%; */
     color: #BF1919;
 }
 
 #about_2_text {
     font-family: 'kefa';
     position: relative;
-    left: 20%;
-    bottom: 60%;
+    left: -130px; 
+    /* position: relative; */
+    /* left: 20%; */
+    /* bottom: 60%; */
 }
 
-#kiwi {
-    height: 15.4rem;
-    width: auto;
-    position: relative;
-    left: 79%;
-    bottom: 3%;
-}
+
+
 #header_3_about {
     font-family: 'kefa';
+    margin-bottom: 20px; 
     position: relative;
-    left: 25%;
-    bottom: 85%;
+    left: -75px; 
+    /* left: 25%; */
     color: #BF1919;
 }
 
 #about_3_text {
     font-family: 'kefa';
-    position: relative;
-    left: 20%;
-    bottom: 80%;
+    position: relative; 
+    left: -130px;
+    /* left: 20%; */
+    /* bottom: 80%; */
     color: white;
+}
+
+#kiwi {
+    /* height: 15.4rem; */
+    /* width: auto; */
+    position: absolute;
+    /* left: 79%;
+    bottom: 3%; */
+    right: 0;
+    width: 260px;
+}
+
+#newsletterHeading {
+    font-family: 'kefa';
 }
 
 .footer p {
@@ -301,31 +395,753 @@ html, body {
 .footer {
     padding-top: 5rem;
     /* border: 5px solid red; */
+    height: 100%;
 }
 
-@media screen and (max-width: 600px){
+
+
+/* MEDIA QUERIES START */
+
+@media only screen and (max-width: 1200px) {
     .carousel-caption h1 {
         position: relative;
-        bottom: 6rem;
-       
-    } #hrBanner {
-        position: relative;
-        bottom: 9rem;
-        left: 20%;
-        width: 12rem;
-} #second_carousel_caption  {
+        bottom: 115px;
+    }
+
+    /* .colorContainer {
+        height: 320px;
+    } */
+
+#hrBanner {
+    position: relative;
+    bottom: 10rem;
+    margin-right: 20px;
+    width: 252px;
+    right: 7%;
+    margin-top: 20px;
+} 
+#second_carousel_caption  {
         font-size: 18px;
 
-} .collectionDrinks {
+} 
+
+#bannerButton {
+    position: relative;
+    bottom: 120px;
+}
+
+.collectionDrinks { 
+    margin-left: 73%;
+    width: 250px;
+    top: auto;
+
+} 
+ .orangeImg {
+    width: 370px;
+    top: 14%;
+    margin-left: auto;
+    padding-right: 25px;
+}  
+.splashText {
+    bottom: 137%;
+} 
+.bannerText {
+    margin-left: 37%;
+    margin-top: 8%;
+    font-size: 20px;
+    bottom: 165%;
+    padding-left: 25px;
+}
+.divbutton {
+    bottom: 100%;
+}
+
+#leafIcon {
+    bottom: 160px;
+    margin-left: 52%;
+}
+
+.carousel-caption h2 {
+    bottom: 145px;
+    margin: auto;
+}
+
+
+#socials {
+    position: relative;
+    margin-left: 80px;
+    padding-top: 0.8%;
+    color: #FFBD0B;
+}
+
+/* div br {
     display: none;
+  } */
 
-} .orangeImg {
-    max-width: 100%;
-    object-fit: cover;
-    object-position: bottom;
+  .footer {
+    padding-top: 5rem;
+    height: 100%;
+}
 
-} .about_1_section {
+}
+
+@media only screen and (max-width: 1024px) {
+    .carousel-caption h1 {
+        position: relative;
+        bottom: 115px;
+    }
+
+    .colorContainer {
+        height: 320px;
+    }
+
+#hrBanner {
+    position: relative;
+    bottom: 10rem;
+    margin-right: 20px;
+    width: 252px;
+    right: 7%;
+    margin-top: 20px;
+} 
+#second_carousel_caption  {
+        font-size: 18px;
+
+} 
+
+#bannerButton {
+    position: relative;
+    bottom: 120px;
+}
+
+.collectionDrinks { 
+    margin-left: 73%;
+    width: 250px;
+    top: auto;
+
+} 
+ .orangeImg {
+    width: 370px;
+    top: 14%;
+    margin-left: auto;
+    padding-right: 25px;
+}  
+.splashText {
+    bottom: 137%;
+} 
+.bannerText {
+    margin-left: 37%;
+    margin-top: 8%;
+    font-size: 20px;
+    bottom: 165%;
+    padding-left: 25px;
+}
+.divbutton {
+    bottom: 100%;
+}
+
+#leafIcon {
+    bottom: 160px;
+    margin-left: 52%;
+}
+
+.carousel-caption h2 {
+    bottom: 145px;
+    margin: auto;
+}
+
+ /* .about_1_section {
     position: relative;
     width: 100%;
     height: auto;
+
+}  */
+#pouringDrinks {
+    width: 300px;
+}
+
+/* #header_1_about {
+    margin-top: 20%;
+    bottom: 50%;
+}
+
+
+#about_1_text {
+    bottom: 45%;
+    margin: inherit;
+    margin-right: 20%;
+} */
+
+
+/* .about_2_section {
+    position: relative;
+    width: 100%;
+    height: auto;
+} */
+
+/* #header_2_about {
+    margin-top: 20%;
+    bottom: 60%;
+} */
+
+/* #about_2_text {
+    font-family: 'kefa';
+    position: relative;
+    left: -130px;
+} */
+
+#pouringMilk {
+    width: 300px;
+}
+
+/* .about_3_section {
+    position: relative;
+    width: 100%;
+    height: auto;
+} */
+
+/* #header_3_about {
+    margin-top: 20%;
+    bottom: 60%;
+} */
+
+/* #about_3_text {
+    bottom: 45%;
+    margin: inherit;
+    margin-right: 20%;
+} */
+
+#kiwi {
+    width: 230px;
+} 
+
+#socials {
+    position: relative;
+    margin-left: 630px;
+    padding-top: 0.8%;
+    color: #FFBD0B;
+}
+
+/* div br {
+    display: none;
+  } */
+
+  .footer {
+    padding-top: 5rem;
+    height: 100%;
+}
+
+        
+  }
+
+
+ /* Small devices (portrait tablets and large phones, 770px and down) */
+ @media only screen and (max-width: 850px) {
+
+    .carousel-caption h1 {
+        position: relative;
+        bottom: 115px;
+    }
+
+    .colorContainer {
+        height: 320px;
+    }
+
+#hrBanner {
+    position: relative;
+    bottom: 10rem;
+    margin-right: 20px;
+    width: 252px;
+    right: 7%;
+    margin-top: 20px;
+} 
+#second_carousel_caption  {
+    font-size: 30px;
+
+} 
+
+#bannerButton {
+    position: relative;
+    bottom: 140px;
+}
+
+#bannerButton_02 {
+    color: white;
+    border-color: white;
+    margin-top: 0px;
+    position: relative;
+    bottom: 40px;
+}
+
+#third_carousel_caption {
+    font-family: 'kefa';
+    position: relative;
+    font-size: 17px;
+    color: #7EE11B;
+    bottom: 100px;
+    left: 40px;
+    margin-left: 200px;
+}
+
+#bannerButton_03 {
+    color: #4BD040;
+    border-color: white;
+    margin-top: 20px;
+    position: relative;
+    margin-left: 270px;
+    bottom: 120%;
+}
+
+.collectionDrinks { 
+    margin-left: 62%;
+    width: 250px;
+    top: auto;
+    
+
+} 
+ .orangeImg {
+    width: 335px;
+    top: 14%;
+    margin-left: auto;
+    padding-right: 25px;
+}  
+.splashText {
+    font-size: 20px;
+    /* margin-left: 36%; */
+    padding-left: 10%;
+    bottom: 137%;
+} 
+.bannerText {
+    margin-left: 37%;
+    margin-top: 8%;
+    font-size: 16px;
+    bottom: 160%;
+    padding-left: 25px;
+}
+.divbutton {
+    bottom: 100%;
+}
+
+#leafIcon {
+    bottom: 160px;
+    margin-left: 52%;
+}
+
+.carousel-caption h2 {
+    bottom: 145px;
+    margin: auto;
+}
+
+/* .about_1_section {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+}  */
+
+#pouringDrinks {
+    width: 250px;
+}
+
+/* #header_1_about {
+    margin-top: 20%;
+    bottom: 50%;
+} */
+
+#about_1_text {
+    font-size: 12px;
+    left: -80px;
+} 
+
+#about_2_text {
+    font-size: 12px;
+    left: -80px;
+}
+
+#about_3_text {
+    font-size: 12px;
+    left: -80px;
+}
+
+/* .about_2_section {
+    position: relative;
+    width: 100%;
+    height: auto; */
+}
+
+/* #header_2_about {
+    margin-top: 20%;
+    bottom: 60%;
+} */
+
+
+
+#pouringMilk {
+    width: 250px;
+    top: 0;
+}
+
+#kiwi {
+    width: 200px;
+ }
+
+/* .about_3_section {
+    position: relative;
+    width: 100%;
+    height: auto;
+} */
+
+/* #header_3_about {
+    margin-top: 20%;
+    bottom: 60%;
+} */
+
+
+
+#socials {
+    position: relative;
+    margin-left: 400px;
+    padding-top: 0.8%;
+    color: #FFBD0B;
+}
+
+/* div br {
+    display: none;
+  }  */
+
+  .footer {
+    padding-top: 5rem;
+    height: 100%;
+}
+
+
+/* Responsive media queries */
+/* If screen size is 600px wide, or less */
+
+@media only screen and (max-width: 500px) {
+  
+    .about_1_section {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 300px;
+    }
+
+    #header_1_about {
+        left: 0;
+        margin-top: 30px;
+    }
+    #about_1_text {
+        left: auto;
+    }
+
+    .about_2_section {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 300px;
+    }
+
+    #header_2_about {
+        left: 0;
+        margin-top: 30px;
+    }
+
+    #about_2_text {
+        left: auto;
+    }
+
+    #pouringMilk {
+        width: 250px;
+        top: 90px;
+    }
+
+    .about_3_section {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 300px;
+    }
+
+    #header_3_about {
+        left: 0;
+        margin-top: 30px;
+    }
+
+    #kiwi {
+       position: relative;
+       width: 180px;
+       margin-left: auto;
+       margin-right: auto;
+    }
+
+    #about_3_text {
+        font-size: 12px;
+        left: auto;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-caption h1 {
+        position: relative;
+        bottom: 9rem;
+        margin-left: 8%;
+        margin-top: 6%;
+        font-size: 30px;
+       
+       
+    } 
+
+    .carousel-item, .carousel-item img {
+        height: 230px;
+        width:100%;
+    }
+
+    .colorContainer {
+            height: 450px;
+    }
+
+#hrBanner {
+    position: relative;
+    bottom: 12rem;
+    margin-left: 40px;
+    width: auto;
+} 
+#second_carousel_caption  {
+    font-size: 22px;
+
+} 
+
+#bannerButton {
+    position: relative;
+    bottom: 540%;
+}
+
+#bannerButton_02 {
+    position: relative;
+    bottom: 80px;
+}
+
+#third_carousel_caption {
+    font-family: 'kefa';
+    position: relative;
+    font-size: 12px;
+    color: #7EE11B;
+    bottom: 100px;
+    left: 40px;
+    margin-left: 55px;
+}
+
+#bannerButton_03 {
+    color: #4BD040;
+    border-color: white;
+    margin-top: 20px;
+    position: relative;
+    margin-left: auto;
+    bottom: 300%;
+}
+
+
+    
+.collectionDrinks { 
+    margin: auto;
+    top: 20px;
+    left: 20%;
+} 
+.orangeImg {
+    /* max-width: 100%; */
+    /* object-fit: cover;
+    object-position: bottom; */
+    /* margin: 0; */
+    display: none;
+
+} 
+.splashText {
+    font-size: 20px;
+    margin-left: auto;
+    padding-left: 8%;
+    top: 4%;
+} 
+.bannerText {
+    margin-left: 15%;
+    margin-top: 8%;
+    font-size: 20px;
+    bottom: 1%;
+}
+.divbutton {
+    top: 32%;
+    left: 40%;
+}
+
+#leafIcon {
+    bottom: 188px;
+    margin-left: 98%;
+}
+
+.carousel-caption h2 {
+    bottom: 188px;
+    margin: auto;
+}
+
+/* .about_1_section {
+    position: relative;
+    width: 100%;
+    height: auto; 
+
+}  */
+/* #pouringDrinks {
+    height: auto;
+    margin: auto;
+    top: 40%;
+} */
+
+/* #header_1_about {
+    margin-top: 20%;
+    bottom: 50%;
+} */
+
+
+/* #about_1_text {
+    bottom: 45%;
+    margin: inherit;
+    margin-right: 20%;
+} */
+
+
+/* .about_2_section {
+    position: relative;
+    width: 100%;
+    height: auto;
+} */
+
+/* #header_2_about {
+    margin-top: 20%;
+    bottom: 50%;
+} */
+
+/* #about_2_text {
+    bottom: 45%;
+    margin: inherit;
+    margin-right: 20%;
+} */
+
+/* #pouringMilk {
+    top: 40%;
+    margin: auto;
+    left: 43%;
+} */
+
+/* .about_3_section {
+    position: relative;
+    width: 100%;
+    height: auto;
+} */
+
+/* #header_3_about {
+    margin-top: 20%;
+    bottom: 60%;
+} */
+
+/* #about_3_text {
+    bottom: 45%;
+    margin: inherit;
+    margin-right: 20%;
+} */
+
+/* #kiwi {
+    top: 42%;
+    margin: 20px 30px;
+    left: 10%;
+} */
+
+/* div br {
+    display: none;
+  } */
+
+  /* @media only screen and (max-width: 599px) {
+    .bannerText {
+        
+    } 
+ }  */
+
+ #socials {
+    position: relative;
+    color: #FFBD0B;
+    padding-left: 22px;
+    /* left: 100px; */
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: auto;
+    bottom: 9px;
+ }
+
+ #icons {
+    width: 30px;
+}
+        
+
+@media only screen and (max-width: 360px) {
+
+    #third_carousel_caption {
+    font-family: 'kefa';
+    position: relative;
+    font-size: 12px;
+    color: #7EE11B;
+    bottom: 100px;
+    left: 25px;
+    margin-left: 50px;
+    }
+
+    #kiwi {
+        width: 160px;
+    }
+
+
+    .splashText {
+        font-size: 17px;
+        margin-left: 1%;
+        padding-left: 6%;
+        padding-top: 12%;
+    } 
+
+.carousel-caption h1 {
+    position: relative;
+    bottom: 9rem;
+    margin-left: 8%; 
+    margin-top: 6%;
+    font-size: 25px;
+}
+
+#bannerButton_03 {
+    color: #4BD040;
+    border-color: white;
+    margin-top: 20px;
+    position: relative;
+    margin-left: auto;
+    bottom: 300%;
+}
+.collectionDrinks {
+    width: 200px;
+}
+
+#second_carousel_caption {
+    font-size: 25px;
+    margin: auto;
+}
+
+.bannerText {
+    margin-left: 30px;
+    margin-top: 8%;
+    font-size: 20px;
+    bottom: 1%;
+}
+
+#socials {
+    position: relative;
+    color: #FFBD0B;
+    padding-left: 70px;
+    font-size: 12px;
+    bottom: px;
+    left: auto;
+}
+}
+
 }
